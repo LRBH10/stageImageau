@@ -1,0 +1,12 @@
+<html t:type="layoutImageau" title="Editing File  "
+	xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns:p="tapestry:parameter">
+
+
+	<t:form t:type="form" t:id="editionForm">
+		<t:errors />
+		<t:textarea t:value="edition" t:mixins="tynamo/ckeditor"
+			parameters="{'toolbar': 'Basic'}" />
+		<br />
+		<input type="submit" value="Sauvegarder" />
+	</t:form>
+</html>

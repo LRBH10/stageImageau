@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$SMDLauncher_8h.html" title="SMDLauncher.h" alt="" coords="1416,86,1533,117"/>
+<area shape="rect" id="node114" href="$CallBackFunction_8h.html" title="CallBackFunction.h" alt="" coords="2128,566,2264,597"/>
+<area shape="rect" id="node123" href="$SignalMain_8h.html" title="SignalMain.h" alt="" coords="2440,566,2539,597"/>
+<area shape="rect" id="node9" href="$SmdIPCStruct_8h.html" title="SmdIPCStruct.h" alt="" coords="1895,646,2009,677"/>
+<area shape="rect" id="node19" href="$QueueMessage_8h.html" title="QueueMessage.h" alt="" coords="1411,566,1539,597"/>
+<area shape="rect" id="node41" href="$OperationsStub_8h.html" title="OperationsStub.h" alt="" coords="589,166,712,197"/>
+<area shape="rect" id="node79" href="$ISmdMonitor_8h.html" title="ISmdMonitor.h" alt="" coords="880,566,987,597"/>
+<area shape="rect" id="node48" href="$CurlCall_8h.html" title="a functions to communicate with an HTTP server TWO Mode : GET or POST" alt="" coords="317,566,397,597"/>
+<area shape="rect" id="node65" href="$OperationSMDFunctions_8h.html" title="OperationSMDFunctions.h" alt="" coords="240,246,416,277"/>
+<area shape="rect" id="node56" href="$SmdException_8h.html" title="SmdException.h" alt="" coords="188,646,305,677"/>
+<area shape="rect" id="node69" href="$OperationAbstract_8h.html" title="OperationAbstract.h" alt="" coords="491,486,629,517"/>
+<area shape="rect" id="node88" href="$OperationsIncludes_8h.html" title="OperationsIncludes.h" alt="" coords="536,326,683,357"/>
+<area shape="rect" id="node76" href="$ReportData_8h.html" title="ReportData.h" alt="" coords="703,646,801,677"/>
+<area shape="rect" id="node81" href="$ProgressData_8h.html" title="ProgressData.h" alt="" coords="825,646,940,677"/>
+<area shape="rect" id="node93" href="$OperationMulti_8h.html" title="OperationMulti.h" alt="" coords="269,406,387,437"/>
+<area shape="rect" id="node97" href="$OperationScript_8h.html" title="OperationScript.h" alt="" coords="597,406,720,437"/>
+<area shape="rect" id="node102" href="$OperationShellFile_8h.html" title="OperationShellFile.h" alt="" coords="744,406,885,437"/>
+<area shape="rect" id="node106" href="$OperationSvn_8h.html" title="OperationSvn.h" alt="" coords="411,406,523,437"/>
+<area shape="rect" id="node121" href="$CallBackFunction_8hpp.html" title="CallBackFunction.hpp" alt="" coords="2121,646,2271,677"/>
+</map>

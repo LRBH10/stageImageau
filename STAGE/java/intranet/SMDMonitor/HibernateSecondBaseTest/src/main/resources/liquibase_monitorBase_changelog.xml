@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+	<changeSet id="1" author="rli">
+		<createTable tableName="test">
+
+			<column name="id" type="INTEGER UNSIGNED" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true" />
+			</column>
+
+			<column name="name" type="varchar(128)">
+			</column>
+
+			<column name="date" type="varchar(128)">
+			</column>
+
+		</createTable>
+		<modifySql dbms="mysql">
+			<append value=" ENGINE InnoDB CHARACTER SET utf8" />
+		</modifySql>
+	</changeSet>
+
+
+</databaseChangeLog>

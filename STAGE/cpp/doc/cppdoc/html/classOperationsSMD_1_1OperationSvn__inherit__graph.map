@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$classOperationsSMD_1_1OperationSvnSwitch.html" title="To switch the repository to another url." alt="" coords="5,166,248,197"/>
+<area shape="rect" id="node7" href="$classOperationsSMD_1_1OperationSvnUpdate.html" title="To update a repository." alt="" coords="272,166,520,197"/>
+<area shape="rect" id="node2" href="$classOperationsSMD_1_1OperationAbstract.html" title="Operation parent of all operations &#160;&#160;contains the different field that all operation must have &#160;&#160;and ..." alt="" coords="147,6,376,37"/>
+</map>

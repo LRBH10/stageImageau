@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classsystemcall_1_1QueueMessage.html#a0259acd9354680de2a38aa606af89950" title="Get the size of File message in SYSTEM IPC V of key SMD_IPC_IDENTIFIER." alt="" coords="328,5,651,35"/>
+<area shape="rect" id="node5" href="$classsystemcall_1_1QueueMessage.html#a6b14057722fda2e4210d38c3aec64968" title="Receive a struct message SmdIPCStructTypes." alt="" coords="303,58,676,89"/>
+<area shape="rect" id="node7" href="$classsystemcall_1_1QueueMessage.html#ae54bb68b6733f3ff357007f15a1a5d9d" title="send a struct message SmdIPCStructTypes" alt="" coords="309,111,669,142"/>
+<area shape="rect" id="node9" href="$classsystemcall_1_1QueueMessage.html#aace42d53d13f048c0ddc0a1cdd83831c" title="Get the size of struct from the SmdIPCStructTypes." alt="" coords="727,85,1017,115"/>
+<area shape="rect" id="node11" href="$classsystemcall_1_1QueueMessage.html#a8f92e2a7cd17c0020f6060a6bb0d93e2" title="Converting other structures SmdIPCStructTypes on default ipcs defaultIPCS." alt="" coords="736,138,1008,169"/>
+</map>

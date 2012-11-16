@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classSMDExecute_1_1SMDLauncher.html#a84529db8b37e820e07cb674d05f7a844" title="To initialize it with file Configuration &quot;SMDMonitor.cfg&quot;." alt="" coords="385,5,601,35"/>
+<area shape="rect" id="node7" href="$classSMDCommunication_1_1ISmdMonitor.html#aa536f354cfd3acf98d9ada7b17dd62c3" title="SMDCommunication::ISmdMonitor::setInstance" alt="" coords="341,58,645,89"/>
+<area shape="rect" id="node5" href="$classSmdException.html#a6b324703eb5b48ed25fc42b2ea1c92cf" title="To push the exception in the stack." alt="" coords="695,5,863,35"/>
+</map>

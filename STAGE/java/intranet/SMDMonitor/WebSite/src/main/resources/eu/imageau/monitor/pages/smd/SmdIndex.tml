@@ -1,0 +1,256 @@
+<html t:type="layoutImageau" title="SMD CHoosen Index"
+	xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns:p="tapestry:parameter">
+
+	<p:sidebar>
+		<div class="well">
+			<ul class="nav">
+				<li>
+					<t:actionlink t:id="changeType" class="btn">
+						<t:if test="progressORoperation">
+							<strong> Les Operations</strong>
+							<p:else>
+								<strong> Les Taches Effectuees</strong>
+							</p:else>
+						</t:if>
+					</t:actionlink>
+				</li>
+				<br />
+				<li class="nav-header">Creation d'une operation</li>
+				<t:loop source="OpsTypes" value="op">
+					<li>
+						<t:actionlink t:id="OperationFactoryCreate" context="op"
+							class="btn btn-inverse">
+							Creer une Operation
+							<br />
+							${op.value}
+						</t:actionlink>
+					</li>
+				</t:loop>
+				<br />
+				<li class="nav-header">Le Status de L'item</li>
+				<li>
+					<t:actionlink t:id="clickerTrue" zone="zoneRefresh"
+						class="btn">
+						Terminer
+					</t:actionlink>
+				</li>
+				<li>
+					<t:actionlink t:id="clickerFalse" zone="zoneRefresh"
+						class="btn">
+						Encours
+					</t:actionlink>
+				</li>
+				<br />
+				<li class="nav-header">Nettoyage </li>
+				<li>
+					<t:actionlink t:id="CleanProgress" class="btn btn-info">
+						Clean Les
+						Progress
+					</t:actionlink>
+				</li>
+				<li>
+					<t:actionlink t:id="CleanOperation" class="btn btn-info">
+						Clean Les
+						Operation
+					</t:actionlink>
+				</li>
+			</ul>
+		</div>
+
+	</p:sidebar>
+
+	<t:zone t:id="zoneRefresh" id="zoneRefresh">
+		<t:if test="progressORoperation">
+			<t:delegate t:to="progressRefresh" />
+			<p:else>
+				<t:delegate t:to="operationRefresh" />
+			</p:else>
+		</t:if>
+	</t:zone>
+
+
+
+
+	<t:block t:id="operationRefresh">
+		<section class="span9">
+			<t:if test="termintedOrNot">
+				<strong> Operations Terminer </strong>
+				<br />
+				<br />
+				<p:else>
+					<strong>Operations Encours</strong>
+					<br />
+					<br />
+				</p:else>
+			</t:if>
+
+			<t:grid source="listOps" row="operation" inPlace="true"
+				reorder="id,description,type,user,path,nested,achieved,report_on_success,dateadded,state"
+				add="delete, modify" rowsPerPage="25">
+
+				<p:descriptionCell>
+					<t:actionlink t:id="select" context="operation.id">
+						${operation.description}
+					</t:actionlink>
+				</p:descriptionCell>
+
+				<p:stateCell>
+					<div class="progress progress-success 
+								progress-striped active">
+						<div class="bar" style="width : ${operation.state}%;"></div>
+					</div>
+				</p:stateCell>
+
+				<p:deleteCell>
+					<t:actionlink t:id="delete" context="operation.id">
+						<i class="icon-trash"></i>
+					</t:actionlink>
+				</p:deleteCell>
+
+				<p:modifyCell>
+					<t:actionlink t:id="update" context="operation.id">
+						<i class=" icon-pencil"></i>
+					</t:actionlink>
+				</p:modifyCell>
+
+				<p:empty>
+					Y'a Aucune Operations
+				</p:empty>
+
+			</t:grid>
+		</section>
+	</t:block>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<t:block t:id="progressRefresh">
+		<section class="span9">
+			<t:if test="termintedOrNot">
+				<strong> Progress Terminer </strong>
+				<br />
+				<br />
+				<p:else>
+					<strong>Progress Encours</strong>
+					<br />
+					<br />
+				</p:else>
+			</t:if>
+
+			<t:grid source="listProgress" row="prog" inPlace="true"
+				reorder="id,title,finished,last_date,value" rowsPerPage="25"
+				add="delete, achieved">
+
+				<p:valueCell>
+					<div class="progress progress-success 
+								progress-striped active">
+						<div class="bar" style="width: ${prog.value}%;"></div>
+					</div>
+				</p:valueCell>
+
+				<p:titleCell>
+					<t:outputraw value="${titleAbr}" />
+
+				</p:titleCell>
+				<p:deleteCell>
+					<t:actionlink t:id="deleteProgress" context="prog.id">
+						<i class="icon-trash"></i>
+					</t:actionlink>
+				</p:deleteCell>
+
+				<p:last_dateCell>
+					${DateFormat}
+				</p:last_dateCell>
+				<p:achievedCell>
+					<t:if test="prog.finished">
+						<p:else>
+							<t:actionlink t:id="achievedProgress" context="prog.id">
+								<i class="icon-ok"></i>
+							</t:actionlink>
+						</p:else>
+					</t:if>
+
+				</p:achievedCell>
+
+				<p:empty>
+					Y'a Aucun Progress
+				</p:empty>
+
+			</t:grid>
+		</section>
+	</t:block>
+	<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<section class="span2">
+		<p>
+			<t:beandisplay object="whoIam" exclude="id" />
+		</p>
+		<br />
+		<t:if test="all">
+			<div class="well">
+				<t:actionlink t:id="valider" class="btn btn-info">
+					Valider l'insertion
+				</t:actionlink>
+			</div>
+			<p:else>
+				<div class="well">
+					<ul class="nav">
+						<li class="nav-header">Fichiers de Configuration</li>
+						<t:loop source="fileConfigSMD" value="fileC">
+							<li>
+								<t:actionlink t:id="EditFile" context="fileC.path"
+									class="btn btn-primary">
+									${fileC.name}
+								</t:actionlink>
+							</li>
+						</t:loop>
+					</ul>
+				</div>
+
+			</p:else>
+		</t:if>
+	</section>
+
+
+
+</html>

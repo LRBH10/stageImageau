@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$SMDTest_8h.html" title="SMDTest.h" alt="" coords="355,86,443,117"/>
+<area shape="rect" id="node7" href="$SMDLauncher_8h.html" title="SMDLauncher.h" alt="" coords="411,166,528,197"/>
+<area shape="rect" id="node13" href="$SmdIPCStruct_8h.html" title="SmdIPCStruct.h" alt="" coords="20,726,135,757"/>
+<area shape="rect" id="node23" href="$QueueMessage_8h.html" title="QueueMessage.h" alt="" coords="437,646,565,677"/>
+<area shape="rect" id="node45" href="$OperationsStub_8h.html" title="OperationsStub.h" alt="" coords="648,246,771,277"/>
+<area shape="rect" id="node83" href="$ISmdMonitor_8h.html" title="ISmdMonitor.h" alt="" coords="963,646,1069,677"/>
+<area shape="rect" id="node52" href="$CurlCall_8h.html" title="a functions to communicate with an HTTP server TWO Mode : GET or POST" alt="" coords="1447,646,1527,677"/>
+<area shape="rect" id="node69" href="$OperationSMDFunctions_8h.html" title="OperationSMDFunctions.h" alt="" coords="684,326,860,357"/>
+<area shape="rect" id="node60" href="$SmdException_8h.html" title="SmdException.h" alt="" coords="1460,726,1577,757"/>
+<area shape="rect" id="node73" href="$OperationAbstract_8h.html" title="OperationAbstract.h" alt="" coords="1037,566,1176,597"/>
+<area shape="rect" id="node92" href="$OperationsIncludes_8h.html" title="OperationsIncludes.h" alt="" coords="988,406,1135,437"/>
+<area shape="rect" id="node80" href="$ReportData_8h.html" title="ReportData.h" alt="" coords="1108,726,1207,757"/>
+<area shape="rect" id="node85" href="$ProgressData_8h.html" title="ProgressData.h" alt="" coords="917,726,1032,757"/>
+<area shape="rect" id="node97" href="$OperationMulti_8h.html" title="OperationMulti.h" alt="" coords="809,486,927,517"/>
+<area shape="rect" id="node101" href="$OperationScript_8h.html" title="OperationScript.h" alt="" coords="1353,486,1476,517"/>
+<area shape="rect" id="node106" href="$OperationShellFile_8h.html" title="OperationShellFile.h" alt="" coords="1188,486,1329,517"/>
+<area shape="rect" id="node110" href="$OperationSvn_8h.html" title="OperationSvn.h" alt="" coords="1052,486,1164,517"/>
+</map>

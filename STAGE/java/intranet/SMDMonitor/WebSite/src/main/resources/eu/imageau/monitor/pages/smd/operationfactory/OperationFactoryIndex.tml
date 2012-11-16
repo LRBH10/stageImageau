@@ -1,0 +1,9 @@
+<html t:type="layoutImageau" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+	xmlns:p="tapestry:parameter">
+
+	<p:sidebar>
+		<t:beandisplay object="operation"
+			reorder="id, description, user, path, state, report_on_success, achieved, nested, date_added " />
+	</p:sidebar>
+	<t:outputraw value="report" />
+</html>

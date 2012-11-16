@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classsystemcall_1_1QueueMessage.html#ae54bb68b6733f3ff357007f15a1a5d9d" title="send a struct message SmdIPCStructTypes" alt="" coords="104,31,464,62"/>
+<area shape="rect" id="node5" href="$classsystemcall_1_1QueueMessage.html#aace42d53d13f048c0ddc0a1cdd83831c" title="Get the size of struct from the SmdIPCStructTypes." alt="" coords="513,5,804,35"/>
+<area shape="rect" id="node7" href="$classsystemcall_1_1QueueMessage.html#a8f92e2a7cd17c0020f6060a6bb0d93e2" title="Converting other structures SmdIPCStructTypes on default ipcs defaultIPCS." alt="" coords="523,58,795,89"/>
+</map>

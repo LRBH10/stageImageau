@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+	<changeSet id="1" author="rli">
+		<createTable tableName="monitor_smd">
+			<column name="id" type="INTEGER UNSIGNED" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true" />
+			</column>
+			<column name="name" type="varchar(32)">
+				<constraints nullable="false" />
+			</column>
+			<column name="version_code" type="varchar(32)">
+			</column>
+			<column name="version_system" type="varchar(32)">
+			</column>
+
+			<column name="connected" type="BOOLEAN">
+			</column>
+			<column name="sealed" type="BOOLEAN">
+			</column>
+
+
+		</createTable>
+		<modifySql dbms="mysql">
+			<append value=" ENGINE InnoDB CHARACTER SET utf8" />
+		</modifySql>
+	</changeSet>
+
+
+	<changeSet id="2" author="rli">
+		<createTable tableName="operation">
+			<column name="id" type="INTEGER UNSIGNED" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true" />
+			</column>
+
+			<column name="id_smd" type="INTEGER UNSIGNED">
+			</column>
+
+			<column name="id_report" type="INTEGER UNSIGNED">
+				<constraints nullable="false" />
+			</column>
+
+			<column name="description" type="varchar(1024)">
+				<constraints nullable="false" />
+			</column>
+
+			<column name="type" type="varchar(32)">
+				<constraints nullable="false" />
+			</column>
+
+			<column name="user" type="varchar(32)">
+			</column>
+
+			<column name="path" type="varchar(1000)">
+			</column>
+
+			<column name="state" type="DOUBLE">
+			</column>
+			<column name="achieved" type="BOOLEAN">
+			</column>
+			<column name="nested" type="BOOLEAN">
+			</column>
+			<column name="report_on_success" type="BOOLEAN">
+			</column>
+			<column name="date_added" type="DATETIME">
+			</column>
+
+
+		</createTable>
+		<modifySql dbms="mysql">
+			<append value="ENGINE InnoDB CHARACTER SET utf8" />
+		</modifySql>
+	</changeSet>
+
+	<changeSet id="4" author="rli">
+		<createTable tableName="operation_multi">
+			<column name="id" type="INTEGER UNSIGNED" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true" />
+			</column>
+			<column name="fail_on_error" type="BOOLEAN">
+			</column>
+		</createTable>
+		<modifySql dbms="mysql">
+			<append value=" ENGINE InnoDB CHARACTER SET utf8" />
+		</modifySql>
+	</changeSet>
+
+
+	<changeSet id="5" author="rli">
+		<createTable tableName="operation_multi_operation">
+			<column name="id_multi" type="INTEGER UNSIGNED">
+				<constraints nullable="false" primaryKey="true" />
+			</column>
+
+			<column name="id_operation" type="INTEGER UNSIGNED">
+				<constraints nullable="false" primaryKey="true" />
+			</column>
+		</createTable>
+		<modifySql dbms="mysql">
+			<append value=" ENGINE InnoDB CHARACTER SET utf8" />
+		</modifySql>
+	</changeSet>
+
+	<changeSet id="6" author="rli">
+		<createTable tableName="operation_script">
+			<column name="id" type="INTEGER UNSIGNED" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true" />
+			</column>
+			<column name="command" type="varchar(200)">
+				<constraints nullable="false" />
+			</column>
+			<column name="parameters" type="varchar(2000)">
+			</column>
+		</createTable>
+		<modifySql dbms="mysql">
+			<append value=" ENGINE InnoDB CHARACTER SET utf8" />
+		</modifySql>
+	</changeSet>
+
+	<changeSet id="7" author="rli">
+		<createTable tableName="operation_shell_file">
+			<column name="id" type="INTEGER UNSIGNED" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true" />
+			</column>
+			<column name="action" type="varchar(128)">
+			</column>
+			<column name="filename" type="varchar(256)">
+				<constraints nullable="false" />
+			</column>
+			<column name="contents" type="TEXT">
+			</column>
+
+			<column name="execute_after" type="BOOLEAN">
+			</column>
+
+			<column name="delete_after" type="BOOLEAN">
+			</column>
+
+		</createTable>
+		<modifySql dbms="mysql">
+			<append value=" ENGINE InnoDB CHARACTER SET utf8" />
+		</modifySql>
+	</changeSet>
+
+	<changeSet id="8" author="rli">
+		<createTable tableName="operation_report">
+			<column name="id_report" type="INTEGER UNSIGNED"
+				autoIncrement="true">
+				<constraints nullable="false" primaryKey="true" />
+			</column>
+			<column name="status" type="BOOLEAN">
+			</column>
+			<column name="contents" type="MEDIUMTEXT">
+			</column>
+		</createTable>
+		<modifySql dbms="mysql">
+			<append value=" ENGINE InnoDB CHARACTER SET utf8" />
+		</modifySql>
+	</changeSet>
+
+	<changeSet id="9" author="rli">
+		<createTable tableName="operation_subversion">
+
+			<column name="id" type="INTEGER UNSIGNED">
+				<constraints nullable="false" primaryKey="true" />
+			</column>
+
+			<column name="svn_type" type="varchar(48)">
+				<constraints nullable="false" />
+			</column>
+
+			<column name="head" type="varchar(32)">
+			</column>
+
+			<column name="conflict" type="varchar(32)">
+			</column>
+
+			<column name="forced" type="BOOLEAN">
+			</column>
+
+		</createTable>
+		<modifySql dbms="mysql">
+			<append value=" ENGINE InnoDB CHARACTER SET utf8" />
+		</modifySql>
+	</changeSet>
+
+	<changeSet id="10" author="rli">
+		<createTable tableName="operation_subversion_update">
+
+			<column name="id" type="INTEGER UNSIGNED">
+				<constraints nullable="false" primaryKey="true" />
+			</column>
+
+		</createTable>
+		<modifySql dbms="mysql">
+			<append value=" ENGINE InnoDB CHARACTER SET utf8" />
+		</modifySql>
+	</changeSet>
+
+	<changeSet id="11" author="rli">
+		<createTable tableName="operation_subversion_switch">
+
+			<column name="id" type="INTEGER UNSIGNED">
+				<constraints nullable="false" primaryKey="true" />
+			</column>
+
+			<column name="url_switch" type="varchar(512)">
+			</column>
+
+		</createTable>
+		<modifySql dbms="mysql">
+			<append value=" ENGINE InnoDB CHARACTER SET utf8" />
+		</modifySql>
+	</changeSet>
+
+	<changeSet id="12" author="rli">
+		<createTable tableName="operation_progress">
+			<column name="id_progress" type="INTEGER UNSIGNED">
+				<constraints nullable="false" primaryKey="true" />
+			</column>
+			<column name="id_smd" type="INTEGER UNSIGNED">
+				<constraints nullable="false" />
+			</column>
+
+			<column name="title" type="varchar(128)">
+			</column>
+			<column name="value" type="DOUBLE">
+			</column>
+			<column name="finished" type="BOOLEAN">
+			</column>
+			<column name="last_date" type="DATETIME">
+			</column>
+		</createTable>
+		<modifySql dbms="mysql">
+			<append value=" ENGINE InnoDB CHARACTER SET utf8" />
+		</modifySql>
+	</changeSet>
+
+
+</databaseChangeLog>

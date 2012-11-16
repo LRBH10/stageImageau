@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$SMDLauncher_8h.html" title="SMDLauncher.h" alt="" coords="411,86,528,117"/>
+<area shape="rect" id="node11" href="$SmdIPCStruct_8h.html" title="SmdIPCStruct.h" alt="" coords="20,646,135,677"/>
+<area shape="rect" id="node21" href="$QueueMessage_8h.html" title="QueueMessage.h" alt="" coords="437,566,565,597"/>
+<area shape="rect" id="node43" href="$OperationsStub_8h.html" title="OperationsStub.h" alt="" coords="648,166,771,197"/>
+<area shape="rect" id="node81" href="$ISmdMonitor_8h.html" title="ISmdMonitor.h" alt="" coords="963,566,1069,597"/>
+<area shape="rect" id="node50" href="$CurlCall_8h.html" title="a functions to communicate with an HTTP server TWO Mode : GET or POST" alt="" coords="1447,566,1527,597"/>
+<area shape="rect" id="node67" href="$OperationSMDFunctions_8h.html" title="OperationSMDFunctions.h" alt="" coords="684,246,860,277"/>
+<area shape="rect" id="node58" href="$SmdException_8h.html" title="SmdException.h" alt="" coords="1460,646,1577,677"/>
+<area shape="rect" id="node71" href="$OperationAbstract_8h.html" title="OperationAbstract.h" alt="" coords="1037,486,1176,517"/>
+<area shape="rect" id="node90" href="$OperationsIncludes_8h.html" title="OperationsIncludes.h" alt="" coords="988,326,1135,357"/>
+<area shape="rect" id="node78" href="$ReportData_8h.html" title="ReportData.h" alt="" coords="1108,646,1207,677"/>
+<area shape="rect" id="node83" href="$ProgressData_8h.html" title="ProgressData.h" alt="" coords="917,646,1032,677"/>
+<area shape="rect" id="node95" href="$OperationMulti_8h.html" title="OperationMulti.h" alt="" coords="809,406,927,437"/>
+<area shape="rect" id="node99" href="$OperationScript_8h.html" title="OperationScript.h" alt="" coords="1353,406,1476,437"/>
+<area shape="rect" id="node104" href="$OperationShellFile_8h.html" title="OperationShellFile.h" alt="" coords="1188,406,1329,437"/>
+<area shape="rect" id="node108" href="$OperationSvn_8h.html" title="OperationSvn.h" alt="" coords="1052,406,1164,437"/>
+</map>

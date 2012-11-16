@@ -1,0 +1,2 @@
+OPT_LDFLAGS=-pg
+OPT_CFLAGS=-pg

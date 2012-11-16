@@ -1,0 +1,104 @@
+TRACE SMDLauncher:49 - CONNECT TO http://192.168.75.45:9998/
+TRACE CurlCall:87 - POST REQUEST : http://192.168.75.45:9998/informations/setConnectednameSMD=testSMD&what=true
+WARN  CurlCall:108 - POST RESPONSE - Web Service is OFF or Bad Connection
+WARN  SMDLauncher:58 - EXCEPTION (SMD sleep 0)
+ CurlCall.cpp:109 - POST RESPONSE - Web Service is OFF or Bad Connection
+OperationsStub.cpp:170 - bool OperationsSMD::OperationStub::connectToServer(const string&, bool)
+SMDLauncher.cpp:57 - virtual void SMDExecute::SMDLauncher::connect()
+
+ 
+TRACE CurlCall:87 - POST REQUEST : http://192.168.75.45:9998/informations/setConnectednameSMD=testSMD&what=true
+WARN  CurlCall:108 - POST RESPONSE - Web Service is OFF or Bad Connection
+WARN  SMDLauncher:58 - EXCEPTION (SMD sleep 5)
+ CurlCall.cpp:109 - POST RESPONSE - Web Service is OFF or Bad Connection
+OperationsStub.cpp:170 - bool OperationsSMD::OperationStub::connectToServer(const string&, bool)
+SMDLauncher.cpp:57 - virtual void SMDExecute::SMDLauncher::connect()
+
+ 
+TRACE CurlCall:87 - POST REQUEST : http://192.168.75.45:9998/informations/setConnectednameSMD=testSMD&what=true
+WARN  CurlCall:108 - POST RESPONSE - Web Service is OFF or Bad Connection
+WARN  SMDLauncher:58 - EXCEPTION (SMD sleep 10)
+ CurlCall.cpp:109 - POST RESPONSE - Web Service is OFF or Bad Connection
+OperationsStub.cpp:170 - bool OperationsSMD::OperationStub::connectToServer(const string&, bool)
+SMDLauncher.cpp:57 - virtual void SMDExecute::SMDLauncher::connect()
+
+ 
+TRACE CurlCall:87 - POST REQUEST : http://192.168.75.45:9998/informations/setConnectednameSMD=testSMD&what=true
+WARN  CurlCall:108 - POST RESPONSE - Web Service is OFF or Bad Connection
+WARN  SMDLauncher:58 - EXCEPTION (SMD sleep 15)
+ CurlCall.cpp:109 - POST RESPONSE - Web Service is OFF or Bad Connection
+OperationsStub.cpp:170 - bool OperationsSMD::OperationStub::connectToServer(const string&, bool)
+SMDLauncher.cpp:57 - virtual void SMDExecute::SMDLauncher::connect()
+
+ 
+TRACE CurlCall:87 - POST REQUEST : http://192.168.75.45:9998/informations/setConnectednameSMD=testSMD&what=true
+WARN  CurlCall:108 - POST RESPONSE - Web Service is OFF or Bad Connection
+WARN  SMDLauncher:58 - EXCEPTION (SMD sleep 20)
+ CurlCall.cpp:109 - POST RESPONSE - Web Service is OFF or Bad Connection
+OperationsStub.cpp:170 - bool OperationsSMD::OperationStub::connectToServer(const string&, bool)
+SMDLauncher.cpp:57 - virtual void SMDExecute::SMDLauncher::connect()
+
+ 
+TRACE CurlCall:87 - POST REQUEST : http://192.168.75.45:9998/informations/setConnectednameSMD=testSMD&what=true
+WARN  CurlCall:108 - POST RESPONSE - Web Service is OFF or Bad Connection
+WARN  SMDLauncher:58 - EXCEPTION (SMD sleep 25)
+ CurlCall.cpp:109 - POST RESPONSE - Web Service is OFF or Bad Connection
+OperationsStub.cpp:170 - bool OperationsSMD::OperationStub::connectToServer(const string&, bool)
+SMDLauncher.cpp:57 - virtual void SMDExecute::SMDLauncher::connect()
+
+ 
+TRACE CurlCall:87 - POST REQUEST : http://192.168.75.45:9998/informations/setConnectednameSMD=testSMD&what=true
+WARN  CurlCall:108 - POST RESPONSE - Web Service is OFF or Bad Connection
+WARN  SMDLauncher:58 - EXCEPTION (SMD sleep 30)
+ CurlCall.cpp:109 - POST RESPONSE - Web Service is OFF or Bad Connection
+OperationsStub.cpp:170 - bool OperationsSMD::OperationStub::connectToServer(const string&, bool)
+SMDLauncher.cpp:57 - virtual void SMDExecute::SMDLauncher::connect()
+
+ 
+TRACE CurlCall:87 - POST REQUEST : http://192.168.75.45:9998/informations/setConnectednameSMD=testSMD&what=true
+WARN  CurlCall:108 - POST RESPONSE - Web Service is OFF or Bad Connection
+WARN  SMDLauncher:58 - EXCEPTION (SMD sleep 35)
+ CurlCall.cpp:109 - POST RESPONSE - Web Service is OFF or Bad Connection
+OperationsStub.cpp:170 - bool OperationsSMD::OperationStub::connectToServer(const string&, bool)
+SMDLauncher.cpp:57 - virtual void SMDExecute::SMDLauncher::connect()
+
+ 
+TRACE CurlCall:87 - POST REQUEST : http://192.168.75.45:9998/informations/setConnectednameSMD=testSMD&what=true
+WARN  CurlCall:108 - POST RESPONSE - Web Service is OFF or Bad Connection
+WARN  SMDLauncher:58 - EXCEPTION (SMD sleep 40)
+ CurlCall.cpp:109 - POST RESPONSE - Web Service is OFF or Bad Connection
+OperationsStub.cpp:170 - bool OperationsSMD::OperationStub::connectToServer(const string&, bool)
+SMDLauncher.cpp:57 - virtual void SMDExecute::SMDLauncher::connect()
+
+ 
+TRACE CurlCall:87 - POST REQUEST : http://192.168.75.45:9998/informations/setConnectednameSMD=testSMD&what=true
+WARN  CurlCall:108 - POST RESPONSE - Web Service is OFF or Bad Connection
+WARN  SMDLauncher:58 - EXCEPTION (SMD sleep 45)
+ CurlCall.cpp:109 - POST RESPONSE - Web Service is OFF or Bad Connection
+OperationsStub.cpp:170 - bool OperationsSMD::OperationStub::connectToServer(const string&, bool)
+SMDLauncher.cpp:57 - virtual void SMDExecute::SMDLauncher::connect()
+
+ 
+TRACE CurlCall:87 - POST REQUEST : http://192.168.75.45:9998/informations/setConnectednameSMD=testSMD&what=true
+WARN  CurlCall:108 - POST RESPONSE - Web Service is OFF or Bad Connection
+WARN  SMDLauncher:58 - EXCEPTION (SMD sleep 50)
+ CurlCall.cpp:109 - POST RESPONSE - Web Service is OFF or Bad Connection
+OperationsStub.cpp:170 - bool OperationsSMD::OperationStub::connectToServer(const string&, bool)
+SMDLauncher.cpp:57 - virtual void SMDExecute::SMDLauncher::connect()
+
+ 
+TRACE CurlCall:87 - POST REQUEST : http://192.168.75.45:9998/informations/setConnectednameSMD=testSMD&what=true
+WARN  CurlCall:108 - POST RESPONSE - Web Service is OFF or Bad Connection
+WARN  SMDLauncher:58 - EXCEPTION (SMD sleep 55)
+ CurlCall.cpp:109 - POST RESPONSE - Web Service is OFF or Bad Connection
+OperationsStub.cpp:170 - bool OperationsSMD::OperationStub::connectToServer(const string&, bool)
+SMDLauncher.cpp:57 - virtual void SMDExecute::SMDLauncher::connect()
+
+ 
+TRACE SMDLauncher:98 - DISCONNECT FROM http://192.168.75.45:9998/ (Value of Connected false )
+INFO  SMDLauncher:125 - SMD disconnected success on the server
+FATAL SMDLauncher:51 - EXCEPTION
+SMDLauncher.cpp:67 - virtual void SMDExecute::SMDLauncher::connect() - Connection Impossible
+main.cpp:50 - int main()
+
+

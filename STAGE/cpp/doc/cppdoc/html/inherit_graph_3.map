@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classSMDCommunication_1_1ISmdMonitor.html" title="imaGeau::ISmdMonitor" alt="" coords="7,5,233,35"/>
+<area shape="rect" id="node3" href="$classSMDExecute_1_1SMDLauncher.html" title="Contains all SMD properties and &#160;different functions to communicate with the web service." alt="" coords="284,31,476,62"/>
+<area shape="rect" id="node4" href="$classOperationsSMD_1_1OperationStub.html" title="Proxy between the SMD and the Web Service Server &#160;It use CurlCallNS::CurlCall to communicate with Web..." alt="" coords="16,58,224,89"/>
+</map>

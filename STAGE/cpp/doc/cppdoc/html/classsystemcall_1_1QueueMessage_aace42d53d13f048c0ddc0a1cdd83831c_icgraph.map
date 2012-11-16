@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classsystemcall_1_1QueueMessage.html#ae54bb68b6733f3ff357007f15a1a5d9d" title="send a struct message SmdIPCStructTypes" alt="" coords="347,111,707,142"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a53374d9fbdc38ab57118b0450909f10f" title="killed" alt="" coords="852,5,905,35"/>
+<area shape="rect" id="node9" href="$communication_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="853,58,904,89"/>
+<area shape="rect" id="node11" href="$classTestSmdIPCs.html#a78178b5dcb2185cf2eb8aa678e2fd579" title="TestSmdIPCs::testMessageBool" alt="" coords="769,111,988,142"/>
+<area shape="rect" id="node13" href="$classTestSmdIPCs.html#a6ee8c006e446d118af792f3481de2bf4" title="TestSmdIPCs::testMessageProgress" alt="" coords="756,165,1001,195"/>
+<area shape="rect" id="node15" href="$classTestSmdIPCs.html#ae9e93293e1ae92e155972ac6ebe612ee" title="TestSmdIPCs::testMessageString" alt="" coords="765,218,992,249"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1051,5,1101,35"/>
+</map>

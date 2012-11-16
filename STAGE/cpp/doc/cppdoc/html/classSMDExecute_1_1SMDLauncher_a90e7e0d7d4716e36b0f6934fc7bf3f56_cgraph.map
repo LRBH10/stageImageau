@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classSmdException.html#a6b324703eb5b48ed25fc42b2ea1c92cf" title="To push the exception in the stack." alt="" coords="1197,26,1365,57"/>
+<area shape="rect" id="node5" href="$classSMDExecute_1_1SMDLauncher.html#ac0b6d6e9ecd934808f6d9c4b33654ad4" title="To check if the SMD is connected or not." alt="" coords="381,181,683,211"/>
+<area shape="rect" id="node12" href="$classSmdException.html#ab1203baabbde93682e597fb0f25c485e" title="Show the exception." alt="" coords="820,103,964,134"/>
+<area shape="rect" id="node14" href="$classSMDExecute_1_1SMDLauncher.html#afee553737175a389ac87c74f4e96904b" title="To set a version from file &#39;bin/version_svn_getter.sh&#39;." alt="" coords="400,127,664,158"/>
+<area shape="rect" id="node16" href="$classOperationsSMD_1_1OperationStub.html#a2aba83842520a0b0c8f3d4c607787a35" title="To update a version in the server." alt="" coords="747,26,1037,57"/>
+<area shape="rect" id="node7" href="$classOperationsSMD_1_1OperationStub.html#a86e2b410c164da5c85eb438e37c4f68d" title="To connect to (or disconnect from) the Web Service." alt="" coords="732,169,1052,199"/>
+<area shape="rect" id="node9" href="$classOperationsSMD_1_1OperationSMDFunctions.html#a0a75636414b3dfa0ab26742b870ac39e" title="Conversion from Bool TO String." alt="" coords="1101,169,1461,199"/>
+</map>

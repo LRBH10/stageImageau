@@ -1,0 +1,73 @@
+<html t:type="layoutImageau" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+	xmlns:p="tapestry:parameter">
+
+
+	<p:sidebar>
+		<div class="well">
+			<ul class="nav">
+				<li class="nav-header">Retourne au SMD pere</li>
+				<li>
+					<t:actionlink t:id="gotoSMD" class="btn">
+						<strong> ${smdCaller.name}</strong>
+					</t:actionlink>
+				</li>
+				<li class="nav-header">Creation d'une operation</li>
+				<t:loop source="OpsTypes" value="op">
+					<li>
+						<t:actionlink t:id="OperationFactoryCreate" context="op"
+							class="btn btn-inverse">
+							Creer une Operation
+							<br />
+							${op.value}
+						</t:actionlink>
+					</li>
+				</t:loop>
+			</ul>
+		</div>
+		<br />
+		<br />
+		<t:beandisplay object="smdCaller" />
+		<br />
+
+	</p:sidebar>
+
+	<section class="span9">
+		<strong> Nested Operations are </strong>
+		<br />
+		<t:grid source="listOps" row="operation" inPlace="true"
+			reorder="id,description,type,user,path,nested,achieved,report_on_success,dateadded,state"
+			add="delete,modify" rowsPerPage="25">
+			<p:descriptionCell>
+				<t:actionlink t:id="select" context="operation.id">
+					${operation.description}
+				</t:actionlink>
+			</p:descriptionCell>
+			<p:stateCell>
+				<div class="progress progress-warning
+								progress-striped active">
+					<div class="bar" style="width: ${operation.state}%;"></div>
+				</div>
+			</p:stateCell>
+			<p:deleteCell>
+				<t:actionlink t:id="delete" context="operation.id">
+					<i class="icon-trash"></i>
+				</t:actionlink>
+			</p:deleteCell>
+			<p:modifyCell>
+				<t:actionlink t:id="update" context="operation.id">
+					<i class="icon-pencil"></i>
+				</t:actionlink>
+			</p:modifyCell>
+			<p:empty>
+				Y'a Aucune Operations
+			</p:empty>
+		</t:grid>
+		<t:outputraw value="report" />
+	</section>
+
+	<section class="span2">
+		<t:beandisplay object="whoIam"
+			reorder="id, description, user, path, state, report_on_success, achieved, fail_on_error, date_added"
+			exclude="nested" />
+	</section>
+</html>

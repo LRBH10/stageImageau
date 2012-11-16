@@ -1,0 +1,41 @@
+{
+    log4cxx3xml15DOMConfigurator
+    Memcheck:Leak
+    ...
+    fun:_ZN7log4cxx3xml15DOMConfigurator9configureERKSs
+    ...
+}
+
+{
+    log4cxx7helpers4Date13register
+    Memcheck:Leak
+    ...
+    fun:_ZN7log4cxx7helpers4Date13registerClassEv
+    ...
+}
+
+{
+    log4cxx7helpers17ClassRegistration
+    Memcheck:Leak
+    ...
+    fun:_ZN7log4cxx7helpers17ClassRegistrationC1EPFRKNS0_5ClassEvE
+    ...
+}
+
+{
+    Rep9_S_create
+    Memcheck:Leak
+    ...
+    fun:_ZNSs4_Rep9_S_createEjjRKSaIcE
+    ...
+}
+
+{
+   Add_glibc_2_13
+   Memcheck:Cond
+   fun:_dl_relocate_object
+   fun:dl_main
+   fun:_dl_sysdep_start
+   fun:_dl_start
+   obj:/lib/ld-2.13.so
+}

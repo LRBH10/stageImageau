@@ -1,0 +1,39 @@
+<html t:type="layoutImageau" title="Editing File  "
+	xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns:p="tapestry:parameter">
+
+
+
+	<h1>CheckboxGroup demo</h1>
+
+	A simple example to illustrate how to use component ControlCB and
+	mixin
+	ControlledCheckbox to get a check box group.
+	The source code of this
+	demo
+	is
+	<br />
+	<form t:type="form" t:id="myForm">
+
+		<br />
+		<table>
+
+			<tr t:type="loop" source="smds" value="smd">
+				<td>
+					<t:checkbox value="selected" />
+					${smd}
+				</td>
+			</tr>
+
+		</table>
+
+
+
+		<input type="submit" value="Submit" />
+	</form>
+
+
+
+
+
+</html>
+ 

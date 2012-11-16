@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classOperationsSMD_1_1ReportData.html#a3e103af076eef5739b544758478d4460" title="Append two report." alt="" coords="428,5,673,35"/>
+<area shape="rect" id="node5" href="$classOperationsSMD_1_1OperationSMDFunctions.html#a6aa3ec39e17451fd9fb54fe96fac39f5" title="OperationsSMD::OperationSMDFunctions::OperationTypeToString" alt="" coords="341,58,760,89"/>
+<area shape="rect" id="node7" href="$classOperationsSMD_1_1OperationAbstract.html#a32e765c03281249bbf4a4409e37e7f9e" title="verification after running operation (called by execute() )" alt="" coords="400,111,701,142"/>
+<area shape="rect" id="node9" href="$classOperationsSMD_1_1OperationAbstract.html#a0d42d876367961cc464aa1c4ef9ef70a" title="verification before running operation (called by execute() )" alt="" coords="403,165,699,195"/>
+<area shape="rect" id="node11" href="$classOperationsSMD_1_1OperationAbstract.html#a73009864861f44d66fa848f154be7efb" title="To run the operation (called by execute() )" alt="" coords="393,218,708,249"/>
+</map>

@@ -1,0 +1,6 @@
+<html t:type="layoutImageau" title="Contact eu.imageau"
+	xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns:p="tapestry:parameter">
+
+	<p>Contact eu.imageau ...</p>
+
+</html>

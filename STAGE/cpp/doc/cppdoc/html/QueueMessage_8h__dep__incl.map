@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$SMDLauncher_8h.html" title="smdmonitor/src/main/launcher/SMDLauncher.h" alt="" coords="447,86,748,117"/>
+<area shape="rect" id="node17" href="$QueueMessage_8cpp.html" title="systemcall/src/main/QueueMessage.cpp" alt="" coords="772,86,1039,117"/>
+<area shape="rect" id="node19" href="$communication_8cpp.html" title="systemcall/src/test/testCommunication/communication.cpp" alt="" coords="1063,86,1431,117"/>
+<area shape="rect" id="node21" href="$TestSmdIPCs_8h.html" title="systemcall/src/test/testIPCS/TestSmdIPCs.h" alt="" coords="1455,86,1740,117"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title="smdmonitor/src/main/launcher/main.cpp" alt="" coords="5,166,264,197"/>
+<area shape="rect" id="node7" href="$SMDLauncher_8cpp.html" title="smdmonitor/src/main/launcher/SMDLauncher.cpp" alt="" coords="288,166,603,197"/>
+<area shape="rect" id="node9" href="$OperationsTest_8h.html" title="smdmonitor/src/test/OperationsTest.h" alt="" coords="627,166,872,197"/>
+<area shape="rect" id="node13" href="$SMDTest_8h.html" title="smdmonitor/src/test/SMDTest.h" alt="" coords="900,166,1108,197"/>
+<area shape="rect" id="node11" href="$OperationsTest_8cpp.html" title="smdmonitor/src/test/OperationsTest.cpp" alt="" coords="613,246,872,277"/>
+<area shape="rect" id="node15" href="$SMDTest_8cpp.html" title="smdmonitor/src/test/SMDTest.cpp" alt="" coords="896,246,1117,277"/>
+<area shape="rect" id="node23" href="$TestSmdIPCs_8cpp.html" title="systemcall/src/test/testIPCS/TestSmdIPCs.cpp" alt="" coords="1447,166,1748,197"/>
+</map>

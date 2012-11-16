@@ -1,0 +1,31 @@
+delete  from operation;
+delete  from operation_subversion_update;
+delete  from operation_subversion_switch;
+delete  from operation_script;
+delete  from operation_subversion;
+delete  from operation_multi;
+delete  from operation_shell_file;
+delete  from operation_multi_operation;
+delete  from operation_report;
+delete  from monitor_smd;
+delete  from operation_progress;
+
+insert into monitor_smd values('','all',NULL,NULL,0,0,0);
+insert into monitor_smd values('','cit1',NULL,NULL,0,0,0);
+insert into monitor_smd values('','gds1',NULL,NULL,0,0,0);
+insert into monitor_smd values('','gds2',NULL,NULL,0,0,0);
+insert into monitor_smd values('','lod1',NULL,NULL,0,0,0);
+insert into monitor_smd values('','mag9',NULL,NULL,0,0,0);
+insert into monitor_smd values('','mc9',NULL,NULL,0,0,0);
+insert into monitor_smd values('','moh1',NULL,NULL,0,0,0);
+insert into monitor_smd values('','svel1',NULL,NULL,0,0,0);
+insert into monitor_smd values('','tav1-1',NULL,NULL,0,0,0);
+insert into monitor_smd values('','tav1-2',NULL,NULL,0,0,0);
+insert into monitor_smd values('','tav2',NULL,NULL,0,0,0);
+insert into monitor_smd values('','test1',NULL,NULL,0,0,0);
+insert into monitor_smd values('','testFunctional',NULL,NULL,0,0,0);
+insert into monitor_smd values('','testSMD',NULL,NULL,0,0,0);
+
+
+
+

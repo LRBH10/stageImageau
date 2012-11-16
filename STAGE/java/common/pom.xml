@@ -1,0 +1,86 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+>
+
+	<parent>
+		<artifactId>imaGeauMavenRoot</artifactId>
+		<groupId>eu.imageau</groupId>
+		<version>r243-1.0-SNAPSHOT</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>eu.imageau</groupId>
+	<artifactId>common</artifactId>
+	<packaging>jar</packaging>
+	<version>r243-1.0-SNAPSHOT</version>
+	<name>Common tool jar</name>
+
+	<!-- ===================================================================== -->
+	<!-- PROFILES (ensemble de paramètres) -->
+	<profiles>
+		<profile>
+			<id>default_profile</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<prod.name>prog_java_common</prod.name>
+			</properties>
+		</profile>
+	</profiles>
+
+	<build>
+		<finalName>common</finalName>
+	</build>
+
+	<repositories>
+		<repository>
+			<id>JBoss repository</id>
+			<url>http://repository.jboss.org/nexus/content/groups/public/</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+			<type>jar</type>
+			<optional>false</optional>
+			<scope>compile</scope>
+		</dependency>
+
+		<!-- ***************** HIBERNATE FULL CONFIG **************** -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.18</version>
+			<type>jar</type>
+			<optional>false</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>${hibernate-version}</version>
+			<type>jar</type>
+			<exclusions>
+				<exclusion>
+					<artifactId>slf4j-api</artifactId>
+					<groupId>org.slf4j</groupId>
+				</exclusion>
+			</exclusions>
+			<optional>false</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-jdk14</artifactId>
+			<version>1.5.8</version>
+			<type>jar</type>
+			<optional>false</optional>
+		</dependency>
+
+
+	</dependencies>
+</project>

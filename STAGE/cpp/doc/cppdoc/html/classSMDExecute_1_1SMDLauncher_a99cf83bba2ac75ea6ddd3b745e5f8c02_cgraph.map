@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classSmdException.html#a6b324703eb5b48ed25fc42b2ea1c92cf" title="To push the exception in the stack." alt="" coords="1213,5,1381,35"/>
+<area shape="rect" id="node5" href="$classSMDExecute_1_1SMDLauncher.html#ac0b6d6e9ecd934808f6d9c4b33654ad4" title="To check if the SMD is connected or not." alt="" coords="397,57,699,87"/>
+<area shape="rect" id="node12" href="$classSmdException.html#ab1203baabbde93682e597fb0f25c485e" title="Show the exception." alt="" coords="836,110,980,141"/>
+<area shape="rect" id="node7" href="$classOperationsSMD_1_1OperationStub.html#a86e2b410c164da5c85eb438e37c4f68d" title="To connect to (or disconnect from) the Web Service." alt="" coords="748,57,1068,87"/>
+<area shape="rect" id="node9" href="$classOperationsSMD_1_1OperationSMDFunctions.html#a0a75636414b3dfa0ab26742b870ac39e" title="Conversion from Bool TO String." alt="" coords="1117,58,1477,89"/>
+</map>

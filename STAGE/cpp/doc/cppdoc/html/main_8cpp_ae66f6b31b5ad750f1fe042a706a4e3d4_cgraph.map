@@ -1,0 +1,38 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classsystemcall_1_1SignalMain.html#a03875581efc30eb45a06b61a0a7fb490" title="Attach A signal with a function &#160;with prototype void (&amp;fun) (void) " alt="" coords="119,5,412,35"/>
+<area shape="rect" id="node5" href="$classSmdException.html#a6b324703eb5b48ed25fc42b2ea1c92cf" title="To push the exception in the stack." alt="" coords="2265,673,2433,703"/>
+<area shape="rect" id="node7" href="$classSMDExecute_1_1SMDLauncher.html#a4223e107991ed06220e306c29f9db46f" title="Connect to the server." alt="" coords="1389,109,1637,139"/>
+<area shape="rect" id="node15" href="$classSmdException.html#ab1203baabbde93682e597fb0f25c485e" title="Show the exception." alt="" coords="1847,265,1991,295"/>
+<area shape="rect" id="node17" href="$classSMDExecute_1_1SMDLauncher.html#ac742cd8eef35f3f0a3d96bcd0baaabdf" title="show all operation in the SMD" alt="" coords="147,227,384,258"/>
+<area shape="rect" id="node19" href="$classSMDExecute_1_1SMDLauncher.html#ac5d48fd10a58ce8c06a0d8e2330f7d31" title="Disonnect to the server." alt="" coords="1380,162,1647,193"/>
+<area shape="rect" id="node24" href="$classSMDExecute_1_1SMDLauncher.html#a6f0429cf6ab5325703909b2362d7f33e" title="Do the operation (execute the operation in the SMD)" alt="" coords="104,331,427,362"/>
+<area shape="rect" id="node26" href="$classSMDExecute_1_1SMDLauncher.html#ae31063b69e5e03e4e78b5b270970e854" title="Verify if the SMD is connected or Not." alt="" coords="127,385,404,415"/>
+<area shape="rect" id="node28" href="$main_8cpp.html#a53374d9fbdc38ab57118b0450909f10f" title="killed" alt="" coords="239,438,292,469"/>
+<area shape="rect" id="node36" href="$classSMDExecute_1_1SMDLauncher.html#a90e7e0d7d4716e36b0f6934fc7bf3f56" title="To send the actual version of SMD." alt="" coords="924,438,1249,469"/>
+<area shape="rect" id="node49" href="$classSMDExecute_1_1SMDLauncher.html#a04825f5dcd02cc09cb27241cdff06de0" title="to start communication with others process &#160;&#160;run the recieveMessageIpcCallBack" alt="" coords="133,554,397,585"/>
+<area shape="rect" id="node65" href="$classsystemcall_1_1SignalMain.html#ae011f154fc7c0d69a0d3061f4f0bb019" title="define the different signal that will be intercepted &#160;&#160;by default the first 16 signal." alt="" coords="140,619,391,650"/>
+<area shape="rect" id="node70" href="$classSMDExecute_1_1SMDLauncher.html#a67474a200de1ca48c1cb03c2525a6f46" title="Get The Operation to do from the server." alt="" coords="116,829,415,859"/>
+<area shape="rect" id="node9" href="$classOperationsSMD_1_1OperationStub.html#a86e2b410c164da5c85eb438e37c4f68d" title="To connect to (or disconnect from) the Web Service." alt="" coords="1759,161,2079,191"/>
+<area shape="rect" id="node11" href="$classOperationsSMD_1_1OperationSMDFunctions.html#a0a75636414b3dfa0ab26742b870ac39e" title="Conversion from Bool TO String." alt="" coords="2169,161,2529,191"/>
+<area shape="rect" id="node30" href="$classsystemcall_1_1QueueMessage.html#ae54bb68b6733f3ff357007f15a1a5d9d" title="send a struct message SmdIPCStructTypes" alt="" coords="483,385,843,415"/>
+<area shape="rect" id="node32" href="$classsystemcall_1_1QueueMessage.html#aace42d53d13f048c0ddc0a1cdd83831c" title="Get the size of struct from the SmdIPCStructTypes." alt="" coords="941,331,1232,362"/>
+<area shape="rect" id="node34" href="$classsystemcall_1_1QueueMessage.html#a8f92e2a7cd17c0020f6060a6bb0d93e2" title="Converting other structures SmdIPCStructTypes on default ipcs defaultIPCS." alt="" coords="951,385,1223,415"/>
+<area shape="rect" id="node38" href="$classSMDExecute_1_1SMDLauncher.html#ac0b6d6e9ecd934808f6d9c4b33654ad4" title="To check if the SMD is connected or not." alt="" coords="1363,421,1664,451"/>
+<area shape="rect" id="node42" href="$classSMDExecute_1_1SMDLauncher.html#afee553737175a389ac87c74f4e96904b" title="To set a version from file &#39;bin/version_svn_getter.sh&#39;." alt="" coords="1381,367,1645,398"/>
+<area shape="rect" id="node44" href="$classOperationsSMD_1_1OperationStub.html#a2aba83842520a0b0c8f3d4c607787a35" title="To update a version in the server." alt="" coords="1773,471,2064,502"/>
+<area shape="rect" id="node51" href="$classSMDExecute_1_1SMDLauncher.html#a62d6e84c22aa9c366ef933eaceecb0bc" title="Function of thread listener for IPCS." alt="" coords="476,566,849,597"/>
+<area shape="rect" id="node53" href="$classsystemcall_1_1QueueMessage.html#a6b14057722fda2e4210d38c3aec64968" title="Receive a struct message SmdIPCStructTypes." alt="" coords="900,626,1273,657"/>
+<area shape="rect" id="node55" href="$classSMDExecute_1_1SMDLauncher.html#ac3fc619c7e736d0c948a00f5d59f3d6a" title="To send the progress IPC." alt="" coords="913,679,1260,710"/>
+<area shape="rect" id="node58" href="$classOperationsSMD_1_1OperationStub.html#abeb2f98ad77a0f60174089915e416d26" title="To Send a progress of other task to the server." alt="" coords="1753,725,2084,755"/>
+<area shape="rect" id="node67" href="$classsystemcall_1_1SignalMain.html#a05ed3fd43fe27ae4702b2a3662688991" title="call the function that will be attached for the signal &#160;&#160;else Exit();" alt="" coords="536,619,789,650"/>
+<area shape="rect" id="node72" href="$classOperationsSMD_1_1OperationStub.html#a2666a53d2f79e092bbd5fae094cbf6ee" title="Verify and get the operation attributed to nameSMD." alt="" coords="493,829,832,859"/>
+<area shape="rect" id="node93" href="$classSMDExecute_1_1SMDLauncher.html#a79574618ef867f16bcf9db2cb821be94" title="To get Detail of Operation Nested in Multi operation." alt="" coords="485,934,840,965"/>
+<area shape="rect" id="node74" href="$classOperationsSMD_1_1OperationStub.html#afefd75ee4b0b842e748c5f63ccdb9d6f" title="Used by get operations." alt="" coords="1331,829,1696,859"/>
+<area shape="rect" id="node77" href="$classOperationsSMD_1_1OperationStub.html#a822cf9b26c90e76588a6f989b06c7797" title="Used by get operations." alt="" coords="905,881,1268,911"/>
+<area shape="rect" id="node79" href="$classOperationsSMD_1_1OperationSMDFunctions.html#a092db506831add70600da22426a9db62" title="generator d&#39;operation from JSON" alt="" coords="1324,983,1703,1014"/>
+<area shape="rect" id="node81" href="$classOperationsSMD_1_1OperationSMDFunctions.html#ae00341c9c10597e6ec3591cf4f6609e8" title="Conversion from enum to string." alt="" coords="2135,1005,2564,1035"/>
+<area shape="rect" id="node83" href="$classOperationsSMD_1_1OperationSMDFunctions.html#a087f600d7111fa4784e89cf728585f4a" title="OperationsSMD::OperationSMDFunctions::searchAttribute" alt="" coords="2167,1107,2532,1138"/>
+<area shape="rect" id="node85" href="$classOperationsSMD_1_1OperationAbstract.html#aab3080e902aebe4f2a11b266f58a4084" title="OperationsSMD::OperationAbstract::deserialize" alt="" coords="1765,1133,2072,1163"/>
+<area shape="rect" id="node95" href="$classOperationsSMD_1_1OperationMulti.html#aa336afc8ed756895d85656b620c1efd9" title="OperationsSMD::OperationMulti::getNestedOperations" alt="" coords="915,934,1259,965"/>
+<area shape="rect" id="node97" href="$classOperationsSMD_1_1OperationStub.html#abda9b80aa6fb11bf6917cc64201a8166" title="Get Operation by ID (FOR imbriqued Operation)" alt="" coords="913,987,1260,1018"/>
+</map>

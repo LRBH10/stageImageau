@@ -1,0 +1,6 @@
+<html t:type="layoutImageau" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+	xmlns:p="tapestry:parameter">
+
+	<t:beaneditform object="multi" exclude="type,id,nested"
+		reorder="user,path,state,achieved,report_on_success" />
+</html>

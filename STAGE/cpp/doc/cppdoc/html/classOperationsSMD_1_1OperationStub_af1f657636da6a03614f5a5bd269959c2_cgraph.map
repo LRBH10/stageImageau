@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classOperationsSMD_1_1OperationAbstract.html#a6dbcc4d8793407b8a4862d66570531f9" title="Get id for current operation." alt="" coords="447,5,772,35"/>
+<area shape="rect" id="node5" href="$classOperationsSMD_1_1OperationAbstract.html#a1b6f100082ac8eafdeb54e9681b9dc69" title="Get Type of operation." alt="" coords="436,58,783,89"/>
+<area shape="rect" id="node7" href="$classOperationsSMD_1_1OperationSMDFunctions.html#a6aa3ec39e17451fd9fb54fe96fac39f5" title="OperationsSMD::OperationSMDFunctions::OperationTypeToString" alt="" coords="400,111,819,142"/>
+<area shape="rect" id="node9" href="$classOperationsSMD_1_1OperationStub.html#abda9b80aa6fb11bf6917cc64201a8166" title="Get Operation by ID (FOR imbriqued Operation)" alt="" coords="436,165,783,195"/>
+<area shape="rect" id="node11" href="$classSmdException.html#a6b324703eb5b48ed25fc42b2ea1c92cf" title="To push the exception in the stack." alt="" coords="1783,163,1951,194"/>
+<area shape="rect" id="node13" href="$classOperationsSMD_1_1OperationSMDFunctions.html#a092db506831add70600da22426a9db62" title="generator d&#39;operation from JSON" alt="" coords="868,215,1247,246"/>
+<area shape="rect" id="node16" href="$classOperationsSMD_1_1OperationAbstract.html#aab3080e902aebe4f2a11b266f58a4084" title="OperationsSMD::OperationAbstract::deserialize" alt="" coords="1296,215,1603,246"/>
+<area shape="rect" id="node19" href="$classOperationsSMD_1_1OperationSMDFunctions.html#ae00341c9c10597e6ec3591cf4f6609e8" title="Conversion from enum to string." alt="" coords="1652,306,2081,337"/>
+<area shape="rect" id="node21" href="$classOperationsSMD_1_1OperationSMDFunctions.html#a087f600d7111fa4784e89cf728585f4a" title="OperationsSMD::OperationSMDFunctions::searchAttribute" alt="" coords="1684,229,2049,259"/>
+</map>

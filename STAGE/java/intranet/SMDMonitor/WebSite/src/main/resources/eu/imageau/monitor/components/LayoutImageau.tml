@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+	xmlns:p="tapestry:parameter">
+	<head>
+		<title>Monitor SMD</title>
+		<link href="${context:layout/css/box.css}" rel="stylesheet" type="text/css" />
+		<link href="${context:layout/css/twitter/bootstrap.css}" rel="stylesheet"
+			type="text/css" />
+		<link href="${context:layout/css/twitter/bootstrap-responsive.css}"
+			rel="stylesheet" type="text/css" />
+
+		<!-- <script type="text/javascript" src="${context:layout/js/jquery.js}"></script> -->
+		<!-- <script type="text/javascript" src="${context:layout/js/twitter/bootstrap.js}"></script> -->
+	</head>
+	<body>
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" href="/WebSite">Moniteur de Imageau</a>
+					<div class="nav-collapse">
+						<ul class="nav">
+							<li class="active">
+								<a href="/WebSite">
+									<i class="icon-home icon-white"></i>
+									Home
+								</a>
+							</li>
+
+						</ul>
+						<ul class="nav pull-right">
+							<li>
+								<a href="/WebSite/about">Qui Nous somme?</a>
+							</li>
+							<li>
+								<a href="/WebSite/contact">Nous Contacter</a>
+							</li>
+						</ul>
+					</div><!-- /.nav-collapse -->
+				</div>
+			</div><!-- /navbar-inner -->
+		</div>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<aside class="span2">
+					<!--Sidebar content -->
+					<t:delegate to="sidebar" />
+				</aside>
+				<div class="span10">
+					<!--Body content -->
+					<t:alerts />
+					<t:body />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+

@@ -1,0 +1,37 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classSMDExecute_1_1SMDLauncher.html#a4223e107991ed06220e306c29f9db46f" title="Connect to the server." alt="" coords="699,194,947,224"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="2243,432,2293,463"/>
+<area shape="rect" id="node9" href="$classOperationsSMD_1_1OperationStub.html#a86e2b410c164da5c85eb438e37c4f68d" title="To connect to (or disconnect from) the Web Service." alt="" coords="244,298,564,328"/>
+<area shape="rect" id="node14" href="$classSMDExecute_1_1SMDLauncher.html#a6b0f0759ca00560aa2d77e31ff739636" title="To send the report (called by executeAllOperation() and OperationsSMD::OperationAbstract::execute())" alt="" coords="1108,90,1377,120"/>
+<area shape="rect" id="node16" href="$classSMDExecute_1_1SMDLauncher.html#a99cf83bba2ac75ea6ddd3b745e5f8c02" title="To send the progress for an operation." alt="" coords="1071,247,1415,278"/>
+<area shape="rect" id="node18" href="$classSMDExecute_1_1SMDLauncher.html#ac3fc619c7e736d0c948a00f5d59f3d6a" title="To send the progress IPC." alt="" coords="1069,458,1416,488"/>
+<area shape="rect" id="node20" href="$classSMDExecute_1_1SMDLauncher.html#a62d6e84c22aa9c366ef933eaceecb0bc" title="Function of thread listener for IPCS." alt="" coords="1473,458,1847,488"/>
+<area shape="rect" id="node25" href="$classSMDExecute_1_1SMDLauncher.html#a90e7e0d7d4716e36b0f6934fc7bf3f56" title="To send the actual version of SMD." alt="" coords="1080,820,1405,851"/>
+<area shape="rect" id="node28" href="$classSMDExecute_1_1SMDLauncher.html#ac5d48fd10a58ce8c06a0d8e2330f7d31" title="Disonnect to the server." alt="" coords="689,351,956,382"/>
+<area shape="rect" id="node35" href="$classOperationsSMD_1_1OperationSvnSwitch.html#a399f7ede76c2d5cb415564e4a62541ae" title="OperationsSMD::OperationSvnSwitch::deserialize" alt="" coords="245,503,563,534"/>
+<area shape="rect" id="node37" href="$classOperationsSMD_1_1OperationSvnUpdate.html#afd46af1268c2cd98d1697ec8d505b503" title="OperationsSMD::OperationSvnUpdate::deserialize" alt="" coords="243,556,565,587"/>
+<area shape="rect" id="node39" href="$classOperationsSMD_1_1OperationSvn.html#a744cf00e295da01b75636940fd46c8a8" title="OperationsSMD::OperationSvn::deserialize" alt="" coords="264,610,544,640"/>
+<area shape="rect" id="node41" href="$classOperationsSMD_1_1OperationScript.html#a7541f2794df041f18cd7a3dad9fb6726" title="OperationsSMD::OperationScript::deserialize" alt="" coords="259,663,549,694"/>
+<area shape="rect" id="node43" href="$classOperationsSMD_1_1OperationShellFile.html#a23a65eed7d2cada90bbff0746e14efb3" title="OperationsSMD::OperationShellFile::deserialize" alt="" coords="249,716,559,747"/>
+<area shape="rect" id="node45" href="$classOperationsSMD_1_1OperationMulti.html#a42ada9921ce7b5940f88ab23157f4872" title="OperationAbstract::deserialize(Object &amp;json_input)" alt="" coords="680,986,965,1016"/>
+<area shape="rect" id="node47" href="$classOperationsSMD_1_1OperationAbstract.html#aab3080e902aebe4f2a11b266f58a4084" title="OperationsSMD::OperationAbstract::deserialize" alt="" coords="251,1023,557,1054"/>
+<area shape="rect" id="node50" href="$classOperationsSMD_1_1OperationSMDFunctions.html#a092db506831add70600da22426a9db62" title="generator d&#39;operation from JSON" alt="" coords="633,1051,1012,1082"/>
+<area shape="rect" id="node52" href="$classOperationsSMD_1_1OperationStub.html#a822cf9b26c90e76588a6f989b06c7797" title="Used by get operations." alt="" coords="1061,1231,1424,1262"/>
+<area shape="rect" id="node54" href="$classOperationsSMD_1_1OperationStub.html#a2666a53d2f79e092bbd5fae094cbf6ee" title="Verify and get the operation attributed to nameSMD." alt="" coords="1491,1256,1829,1287"/>
+<area shape="rect" id="node59" href="$classOperationsSMD_1_1OperationStub.html#abda9b80aa6fb11bf6917cc64201a8166" title="Get Operation by ID (FOR imbriqued Operation)" alt="" coords="1069,924,1416,955"/>
+<area shape="rect" id="node68" href="$classSMDExecute_1_1SMDLauncher.html#a84529db8b37e820e07cb674d05f7a844" title="To initialize it with file Configuration &quot;SMDMonitor.cfg&quot;." alt="" coords="296,1127,512,1158"/>
+<area shape="rect" id="node77" href="$classOperationsSMD_1_1OperationStub.html#afefd75ee4b0b842e748c5f63ccdb9d6f" title="Used by get operations." alt="" coords="640,1335,1005,1366"/>
+<area shape="rect" id="node80" href="$classOperationsSMD_1_1OperationStub.html#a47243a932efc3ff5dd9472727e4bd406" title="To Send a progress operation to the server." alt="" coords="224,1180,584,1211"/>
+<area shape="rect" id="node83" href="$classOperationsSMD_1_1OperationStub.html#abeb2f98ad77a0f60174089915e416d26" title="To Send a progress of other task to the server." alt="" coords="657,404,988,435"/>
+<area shape="rect" id="node88" href="$classOperationsSMD_1_1OperationStub.html#a6228d838ec6b62a638ea37563adc66bc" title="To Send a report to the server." alt="" coords="665,140,980,171"/>
+<area shape="rect" id="node91" href="$classOperationsSMD_1_1OperationStub.html#a2aba83842520a0b0c8f3d4c607787a35" title="To update a version in the server." alt="" coords="677,871,968,902"/>
+<area shape="rect" id="node7" href="$classOperationsSMD_1_1SMDTest.html#af996a943a77de3c626143927ae828be9" title="OperationsSMD::SMDTest::testConnect" alt="" coords="1113,194,1372,224"/>
+<area shape="rect" id="node12" href="$classSMDExecute_1_1SMDLauncher.html#ac0b6d6e9ecd934808f6d9c4b33654ad4" title="To check if the SMD is connected or not." alt="" coords="672,298,973,328"/>
+<area shape="rect" id="node22" href="$classSMDExecute_1_1SMDLauncher.html#a04825f5dcd02cc09cb27241cdff06de0" title="to start communication with others process &#160;&#160;run the recieveMessageIpcCallBack" alt="" coords="1913,458,2177,488"/>
+<area shape="rect" id="node31" href="$classSMDExecute_1_1SMDLauncher.html#af1e9396348a9cd20c4f45b128fb88fd1" title="Default destructor." alt="" coords="1096,300,1389,331"/>
+<area shape="rect" id="node33" href="$classOperationsSMD_1_1SMDTest.html#a35c06145df3dcc821bfa8693b5dcf8f2" title="OperationsSMD::SMDTest::testDisConnect" alt="" coords="1103,354,1383,384"/>
+<area shape="rect" id="node56" href="$classSMDExecute_1_1SMDLauncher.html#a67474a200de1ca48c1cb03c2525a6f46" title="Get The Operation to do from the server." alt="" coords="1896,898,2195,928"/>
+<area shape="rect" id="node61" href="$classSMDExecute_1_1SMDLauncher.html#a79574618ef867f16bcf9db2cb821be94" title="To get Detail of Operation Nested in Multi operation." alt="" coords="1483,898,1837,928"/>
+<area shape="rect" id="node64" href="$classOperationsSMD_1_1OperationStub.html#af1f657636da6a03614f5a5bd269959c2" title="this operation it is developed to get the operation nested on the multiple operation" alt="" coords="1487,951,1833,982"/>
+<area shape="rect" id="node70" href="$classSMDExecute_1_1SMDLauncher.html#a1cdbe04ff1f07ff43311567df52fe21b" title="Default Constructor." alt="" coords="680,1127,965,1158"/>
+</map>

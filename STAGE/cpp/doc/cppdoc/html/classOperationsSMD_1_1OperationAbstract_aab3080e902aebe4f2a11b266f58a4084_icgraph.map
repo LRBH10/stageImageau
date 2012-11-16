@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classOperationsSMD_1_1OperationMulti.html#a42ada9921ce7b5940f88ab23157f4872" title="OperationAbstract::deserialize(Object &amp;json_input)" alt="" coords="408,5,693,35"/>
+<area shape="rect" id="node5" href="$classOperationsSMD_1_1OperationSMDFunctions.html#a092db506831add70600da22426a9db62" title="generator d&#39;operation from JSON" alt="" coords="361,58,740,89"/>
+<area shape="rect" id="node7" href="$classOperationsSMD_1_1OperationStub.html#a822cf9b26c90e76588a6f989b06c7797" title="Used by get operations." alt="" coords="789,31,1152,62"/>
+<area shape="rect" id="node15" href="$classOperationsSMD_1_1OperationStub.html#abda9b80aa6fb11bf6917cc64201a8166" title="Get Operation by ID (FOR imbriqued Operation)" alt="" coords="797,85,1144,115"/>
+<area shape="rect" id="node9" href="$classOperationsSMD_1_1OperationStub.html#a2666a53d2f79e092bbd5fae094cbf6ee" title="Verify and get the operation attributed to nameSMD." alt="" coords="1208,31,1547,62"/>
+<area shape="rect" id="node11" href="$classSMDExecute_1_1SMDLauncher.html#a67474a200de1ca48c1cb03c2525a6f46" title="Get The Operation to do from the server." alt="" coords="1603,58,1901,89"/>
+<area shape="rect" id="node13" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1949,58,2000,89"/>
+<area shape="rect" id="node17" href="$classSMDExecute_1_1SMDLauncher.html#a79574618ef867f16bcf9db2cb821be94" title="To get Detail of Operation Nested in Multi operation." alt="" coords="1200,85,1555,115"/>
+<area shape="rect" id="node20" href="$classOperationsSMD_1_1OperationStub.html#af1f657636da6a03614f5a5bd269959c2" title="this operation it is developed to get the operation nested on the multiple operation" alt="" coords="1204,138,1551,169"/>
+</map>

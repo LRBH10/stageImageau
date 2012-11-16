@@ -1,0 +1,120 @@
+<html t:type="layoutImageau" title="SMD Monitor"
+	xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns:p="tapestry:parameter">
+
+	<!-- SIDE BAR -->
+	<p:sidebar>
+		<div class="well">
+			<ul class="nav nav-list">
+				<li class="nav-header">Recherche d'un SMD</li>
+				<li>
+					<t:form t:id="searchForm" class="form-search">
+						<input t:type="textfield" t:value="search" t:id="search"
+							t:mixins="jquery/Autocomplete" style="width: 50%;" />
+
+						<t:submit t:id="submit" class="btn" style="width: 40%;"
+							value="Recherche" />
+					</t:form>
+				</li>
+				<br />
+				<li class="nav-header">Menu</li>
+				<li>
+					<t:actionlink t:id="smdCreate" class="btn">SMD Create
+					</t:actionlink>
+				</li>
+				<li>
+					<t:actionlink t:id="test" class="btn">
+						Simple Test Page
+					</t:actionlink>
+				</li>
+				<br />
+			</ul>
+		</div>
+	</p:sidebar>
+
+
+	<!-- SMD DESCRIPTION -->
+	<ul t:type="any" t:mixins="jquery/sortable" class="unstyled">
+		<t:loop source="listSMDs" value="smd" index="rowAdded">
+			<t:if test="newRow">
+				<li>
+					<div class="row">
+					</div>
+				</li>
+			</t:if>
+
+			<li class="span2">
+				<div class="box">
+					<div class="row">
+						<div class="span10">
+							<t:actionlink t:id="smdChoose" context="smd.getName()"
+								class="entete" id="${smd.getName()}">
+								${smd.getName()}
+
+							</t:actionlink>
+						</div>
+						<div class="span2">
+							<!--Body content -->
+							<t:actionlink t:id="smdDelete" context="smd.getId()">
+								<i class="icon-remove floatright"></i>
+							</t:actionlink>
+						</div>
+					</div>
+
+					<br />
+					<div t:type="zone" t:id="row" t:mixins="zonerefresh" t:period="1"
+						t:context="indexSmds.get(rowAdded)" class="boxzone" t:update="show">
+						<t:if test="haveAProblem">
+							<i class="icon-warning-sign"></i>
+							<p:else>
+								<i class="icon-thumbs-up"></i>
+							</p:else>
+						</t:if>
+						<br />
+						Code : ${versionCode}
+						<br />
+						System : ${versionSystem}
+						<br />
+						<t:if test="connectedSmd">
+							<i class="  icon-signal"></i>
+							<p:else>
+								<i class="  icon-off"></i>
+							</p:else>
+						</t:if>
+
+						<t:if test="haveOperationToDo">
+							<i class="icon-download-alt"></i>
+							<p:else>
+								<i class=" icon-eye-open"></i>
+							</p:else>
+						</t:if>
+
+						<br />
+						<td colspan="2">
+							<t:if test="haveOperationToDo">
+								<div class="progress 
+								progress-striped active">
+									<div class="bar" style="width: ${stateOfOperations}%;">operations</div>
+								</div>
+								<p:else>
+								</p:else>
+							</t:if>
+						</td>
+
+						<t:loop source="progressRunning" value="progress">
+
+							<td colspan="2">
+								<div class="progress progress-striped active">
+									<div class="bar" style="width: 
+								${progress.value}%;">${progress.title}</div>
+								</div>
+							</td>
+
+						</t:loop>
+					</div>
+					<br />
+				</div>
+			</li>
+		</t:loop>
+	</ul>
+
+</html>
